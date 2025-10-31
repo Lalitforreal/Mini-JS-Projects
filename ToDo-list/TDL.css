@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    max-width: 35rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.285);
+    width: 100%;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    gap: 20px;
+}
+
+.addContainer{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.addContainer > input{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.367);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.addContainer > button{
+    padding: 0 15px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    border: none;
+    transition: all linear 0.3s;
+}
+
+.addContainer > button:active{
+    scale: 0.9;
+}
+
+.listContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listContainer .list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.listContainer .deleteBtn{
+    padding: 5px;
+}
+
+.tasks{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 4px;
+    height: 1.7rem;
+
+}
